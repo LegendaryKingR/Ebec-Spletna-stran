@@ -46,7 +46,7 @@ nav a {
 }
 
 #dobrodosli {
-    background-image: url(images/1.png);
+    background-image: url(fotografije/1.png);
     background-size: 100% 100%;
     position: relative;
     height: 100%;
@@ -72,7 +72,6 @@ nav a {
     height: 100%;
     float: left;
     float: top;
-    display: inline-block; 
 }
 
 .video{
@@ -84,7 +83,6 @@ nav a {
     height: 100%;
     float: right;
     float: top;
-    display: inline-block;
 }
 
 .dobrodosliTexBox .title {
