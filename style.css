@@ -72,7 +72,6 @@ nav a {
     height: 100%;
     float: left;
     float: top;
-    display: inline-block; 
 }
 
 .video{
@@ -84,7 +83,6 @@ nav a {
     height: 100%;
     float: right;
     float: top;
-    display: inline-block;
 }
 
 .dobrodosliTexBox .title {
