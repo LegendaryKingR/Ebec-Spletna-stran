@@ -117,6 +117,8 @@ nav a {
 }
 
 section {
-    width: 1980px;
     height: 1080px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
 }
