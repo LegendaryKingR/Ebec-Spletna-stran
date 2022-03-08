@@ -19,18 +19,22 @@ nav {
     position: fixed;
     width: 100%;
     top: 0px;
-    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
     z-index: 1000;
     height: auto;
 }
+
 nav img{
     float: left;
+    display: inline;
     padding-left: 46px;
     padding-top: 26px;
 }
 
 nav a {
     float: right;
+    display: inline;
     text-decoration: none;
     padding: 10px;
     padding-top: 60px;
@@ -41,12 +45,7 @@ nav a {
 
 #dobrodosli::after{
     content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    float: center;
     background-color: #0071B9;
     opacity: 30%;
 }
@@ -65,38 +64,48 @@ nav a {
     padding-left: 40px;
     padding-right: 40px;
     width:100%;
-    top: 20%;
-    height: 60%;
+    top: 280px;
+    height: 540px;
     position: absolute;
 }
 .dobrodosliTexBox {
     background-color: #0071B9;
     text-transform: uppercase;
+    color: white;
     border-radius: 20px;
-    padding: 20px;
-    width: 30%;
+    padding: 30px;
+    width: 600px;
     height: 100%;
     float: left;
     float: top;
 }
+#title{     
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    mix-blend-mode: hard-light;
+}
 
+#subtitle{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 53px;
+    margin-top: 151px;
+
+    color: #FFFFFF;
+}
 .video{
     background-color: gray;
     text-transform: uppercase;
     border-radius: 20px;
     padding: 20px;
-    width: 68%;
+    width: 960px;
     height: 100%;
     float: right;
     float: top;
-}
-
-.dobrodosliTexBox .title {
-    font-size: 2em;
-}
-
-.dobrodosliTexBox .subtitle {
-    font-size: 1.2435em;
 }
 
 .EBEC h2 {
