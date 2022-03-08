@@ -32,11 +32,7 @@
         font-size: 30px;
 
     }
-    .dobrodosliTexBox{
-        padding: 15px;
-        width: 400px;
-        height: 50%;
-    }
+    
     .CrniH1{
         font-family: Roboto;
         font-style: normal;
@@ -46,12 +42,7 @@
         color: #000000;
     
     }
-    #subtitle{
-        font-weight: 700;
-        font-size: 30px;
     
-        color: #FFFFFF;
-    }
 }
 
 @media only screen and (max-height: 900px)  {
@@ -63,6 +54,18 @@
         font-family: Roboto;
         font-size: 15px;
 
+    }
+    #subtitle{
+        margin-top: 70px;
+    }
+    #firstPage, #dobrodosli{
+        display:inline;
+    }
+
+    .video{
+        float:left;
+        margin: 20px;
+        
     }
 }
 .ebecAmakModroOzadje h1{
