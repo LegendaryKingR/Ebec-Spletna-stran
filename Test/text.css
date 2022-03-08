@@ -1,12 +1,12 @@
 .AboutEBEC ,.oNasTex{
     text-align:justify;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-top: 25px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: clamp(16px, 30px, 60px);
+    font-size: 50px;
     line-height: 118.19%;
     /* or 35px */
     color: #000000;
