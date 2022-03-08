@@ -18,10 +18,10 @@
     font-style: normal;
     font-weight: 800;
     font-size: 100px;
-
     color: #000000;
-
 }
+
+
 @media only screen and (max-height: 1080px) and (min-height: 901px){
     .AboutEBEC ,.oNasTex{
         margin-left: 50px;
@@ -64,4 +64,40 @@
         font-size: 15px;
 
     }
+}
+.ebecAmakModroOzadje h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.ebecAmakModroOzadje h2{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+#skupinskoNacrtovanjeText{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+#studijaPrimeraText{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
 }

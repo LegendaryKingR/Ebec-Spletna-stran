@@ -149,3 +149,19 @@ footer {
   }
  
 
+
+.ebecAmakModroOzadje{
+    background-color: #0071B9;
+    color: white;
+}
+
+#skupinskoNacrtovanje{
+    height: 335px;
+    margin: 20px;
+}
+
+#skupinskoNacrtovanjeText{
+    width: 564px;
+    height: 100%;
+    margin: 40px;
+}
