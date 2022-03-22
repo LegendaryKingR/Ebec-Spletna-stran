@@ -256,12 +256,9 @@ div {
 .kontakt {
     background-color: #0071B9;
 }
-.kontakt h1 {
-    color: #FFFFFF;
-    padding-top: 50px;
-    padding-bottom:10px;
-}
+
 .InsideKontakt{
+    border-radius: 15px;
     height: 500px;
     width: auto;
     margin-left: 15%;
