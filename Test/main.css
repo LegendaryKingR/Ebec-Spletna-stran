@@ -129,37 +129,112 @@ section {
     
     text-align: center;
 }
+
 footer {
     padding-top: 100px;
     margin-top: 150px;
     margin-bottom: 25px;
 }
+
 #ERROR {
     z-index: 2;
     display:none;
     width: fit-content;
     height: fit-content;
-  }
+}
 
 .ebecAmakModroOzadje{
     background-color: #0071B9;
     color: white;
 }
 
-#skupinskoNacrtovanje{
+.modraTabela{
     height: 335px;
     margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #skupinskoNacrtovanjeText{
     width: 564px;
     height: 100%;
-    margin: 40px;
+    margin: 30px;
 }
+
+#urnikTmp{
+    background: #C4C4C4;
+    width: 1115px;
+    height: 313px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#razvrstitevTmp{
+    background: #C4C4C4;
+    width: 1115px;
+    height: 313px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.debelaCrta{
+    width: 465px;
+    height: 11px;
+    left: 726px;
+    top: 1639px;
+    background: #FFFFFF;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    margin: 30px;
+}
+
+#skupinskoNacrtovanjeNaslov{
+    width: 513px;
+    height: 47px;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+#trikotnikVDeso{
+    width: 44px;
+    height: 38px;
+    left: 110px;
+    top: 1611px;
+    display: inline-block;
+    background: #FFFFFF;
+    transform: rotate(90deg);
+}
+
+.crtica{
+    color: white;
+    margin-left: 75px;
+    margin-bottom: 50px;
+    margin-right: 75px;
+}
+
+.ebecAmakModroOzadje h2{
+    height: 41px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 41px;
+}
+
+#podNaslovLevo{
+    margin-left: 75px;
+}
+
+#podNaslovDesno{
+    text-align: right;
+    margin-right: 75px;
+}
+
 #oNas{
     margin: 0%;
     padding: 0%;
 }
+
 #owl .item{
     margin: 3px;
 
