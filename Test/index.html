@@ -11,27 +11,53 @@
     <script src="script.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.32/owl.carousel.min.js" integrity="sha512-Mbgs3jiG1Gj9Z0yQquXz1pe/ylRaSa4kYrOHj1j/86yCQEyqrO33/+WGGFHAjAE4asmrq3D4kUzYd37LUQrBJA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.32/owl.carousel.js" integrity="sha512-psXhKyyYLZgEH3Qmy2fjLS7GRlU04qRW0OaFRh0c1vFmClzWXv2btGc3VWSs+DsjV+k8q/lIStcE0T096CCTCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.32/owl.carousel.css" integrity="sha512-r2BeFfarJSZf3teQ+0SMnCKS2UlU/xkLct52CALlAboavp4MR0EHiREQF3I+bFArKEOp5GGxPDAnnUbLHJ8UEg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.32/owl.carousel.min.css" integrity="sha512-xbYWNZUF5abfd+COvIaCdxraK5F+CzMtGU8a1iYiLOujWGo5yGwy9YhXfVWmKh/b0Fw6BxtfK3IY0AAXJDwMEw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.32/owl.theme.css" integrity="sha512-A0Z5apGnS0cNbERTamhdj458FUFjpgzwAewVzdgKcbQ+0nARJXXlhJdPgnT9tCAOKj6/ktqKj5rMFDi9NJVEbw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.32/owl.theme.min.css" integrity="sha512-f28cvdA4Bq3dC9X9wNmSx21rjWI+5piIW/uoc2LuQ67asKxfQjUow2MkcCNcfJiaLrHcGbed1wzYe3dlY4w9gA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.32/owl.carousel.min.js"
+        integrity="sha512-Mbgs3jiG1Gj9Z0yQquXz1pe/ylRaSa4kYrOHj1j/86yCQEyqrO33/+WGGFHAjAE4asmrq3D4kUzYd37LUQrBJA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.32/owl.carousel.js"
+        integrity="sha512-psXhKyyYLZgEH3Qmy2fjLS7GRlU04qRW0OaFRh0c1vFmClzWXv2btGc3VWSs+DsjV+k8q/lIStcE0T096CCTCw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.32/owl.carousel.css"
+        integrity="sha512-r2BeFfarJSZf3teQ+0SMnCKS2UlU/xkLct52CALlAboavp4MR0EHiREQF3I+bFArKEOp5GGxPDAnnUbLHJ8UEg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.32/owl.carousel.min.css"
+        integrity="sha512-xbYWNZUF5abfd+COvIaCdxraK5F+CzMtGU8a1iYiLOujWGo5yGwy9YhXfVWmKh/b0Fw6BxtfK3IY0AAXJDwMEw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.32/owl.theme.css"
+        integrity="sha512-A0Z5apGnS0cNbERTamhdj458FUFjpgzwAewVzdgKcbQ+0nARJXXlhJdPgnT9tCAOKj6/ktqKj5rMFDi9NJVEbw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.32/owl.theme.min.css"
+        integrity="sha512-f28cvdA4Bq3dC9X9wNmSx21rjWI+5piIW/uoc2LuQ67asKxfQjUow2MkcCNcfJiaLrHcGbed1wzYe3dlY4w9gA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <script>
-        $(document).ready(function() {
- 
+        $(document).ready(function () {
+
             $("#owl").owlCarousel({
 
                 autoPlay: 3000, //Set AutoPlay to 3 seconds
 
-                items : 4,
-                itemsDesktop : [1199,3],
-                itemsDesktopSmall : [979,3]
+                items: 4,
+                itemsDesktop: [1199, 3],
+                itemsDesktopSmall: [979, 3]
 
             });
 
-            });
+        });
+
+        $(document).ready(function () {
+
+        $(".kontaktslide").owlCarousel({
+
+            autoPlay: 3000, //Set AutoPlay to 3 seconds
+
+            items: 3,
+            itemsDesktop: [1199, 3],
+            itemsDesktopSmall: [979, 3]
+
+        });
+
+        });
     </script>
 </head>
 
@@ -119,9 +145,9 @@
 
     </div>
 
-    <div>
+    <div id="oNas">
         <h1 class="CrniH1">O NAS</h1>
-        <p class="oNasTex">
+        <div class="oNasTex">
             BEST je konstantno rastoča neprofitna študentska organizacija, ki že od leta 1989 omogoča komunikacijo,
             povezovanje in možnost izmenjave študentov po vsej Evropi. Sestavljajo 96 lokalnih BEST skupin, v 33
             različnih državah.
@@ -139,7 +165,7 @@
             podjetje – univerza. Aktivni člani BEST-a se udeležujejo številnih drugih internih srečanj, kot so
             delavnice, treningi, kulturne izmenjave in generalne skupščine, kjer si pridobimo znanja s področja timskega
             dela, organizacije, projektnega vodenja ter mehkih veščin.
-        </p>
+        </div>
         <div id="owl">
             <div class="item"><img src="slideshow/shrek.png"></div>
             <div class="item"><img src="slideshow/shrek5.png"></div>
@@ -150,14 +176,25 @@
             <div class="item"><img src="slideshow/shrek.png"></div>
             <div class="item"><img src="slideshow/shrek.png"></div>
         </div>
-    </div>  
+    </div>
 
     <div class="kontakt" id="kontakt">
-        <h1>KONTAKT</h1>
-        <div id="poljeZKontakti">
-            <div class="kontakti"></div>
-            <div class="kontakti"></div>
-            <div class="kontakti"></div>
+        <h1 class="CrniH1">KONTAKT</h1>
+        <div id="owl" class="kontaktslide">
+            <div class="item">
+                <div class ="InsideKontakt">
+                    <img src="slideshow/shrek.png">
+                    <h3>Nuša Škular</h3>
+                    <p>Glavni organizator</p>
+                </div>
+            </div>
+            <div class="item"><img src="slideshow/shrek5.png"></div>
+            <div class="item"><img src="slideshow/shrek1.png"></div>
+            <div class="item"><img src="slideshow/shrek2.png"></div>
+            <div class="item"><img src="slideshow/shrek4.png"></div>
+            <div class="item"><img src="slideshow/shrek5.png"></div>
+            <div class="item"><img src="slideshow/shrek.png"></div>
+            <div class="item"><img src="slideshow/shrek.png"></div>
         </div>
     </div>
 

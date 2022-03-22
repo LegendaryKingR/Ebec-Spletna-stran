@@ -156,16 +156,33 @@ footer {
     height: 100%;
     margin: 40px;
 }
-
+#oNas{
+    margin: 0%;
+    padding: 0%;
+}
 #owl .item{
     margin: 3px;
+
   }
-  #owl .item img{
+#owl .item img{
     display: block;
     width: 100%;
     height: auto;
+    border-radius: 25px;
   }
 div {
-    margin-top: auto;
+    margin-top: 50px;
     text-align: center;
+}
+
+.kontakt {
+    background-color: #0071B9;
+}
+.kontakt h1 {
+    color: #FFFFFF;
+    padding-top: 50px;
+    padding-bottom:10px;
+}
+.InsideKontakt{
+    background-color: #FFFFFF;
 }
