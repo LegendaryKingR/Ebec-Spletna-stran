@@ -165,3 +165,7 @@ footer {
     width: 100%;
     height: auto;
   }
+div {
+    margin-top: auto;
+    text-align: center;
+}
