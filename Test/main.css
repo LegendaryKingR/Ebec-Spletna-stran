@@ -138,17 +138,6 @@ footer {
     width: fit-content;
     height: fit-content;
   }
-@media only screen and (max-height: 900px) {
-    #ERROR {
-      display:block;
-    }
-    div ,h2, h1, section ,nav{
-        display: none;
-    }
-    
-  }
- 
-
 
 .ebecAmakModroOzadje{
     background-color: #0071B9;
