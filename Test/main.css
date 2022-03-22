@@ -240,7 +240,6 @@ footer {
 
   }
 #owl .item img{
-    display: block;
     width: 100%;
     height: auto;
     border-radius: 25px;
@@ -260,7 +259,3 @@ div {
 .InsideKontakt{
     background-color: #FFFFFF;
 }
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
