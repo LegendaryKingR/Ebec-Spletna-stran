@@ -126,10 +126,12 @@ section {
     height: 1080px;
     padding: 10px;
     margin: 10px;
+    
     text-align: center;
 }
 footer {
-    margin-top: 50px;
+    padding-top: 100px;
+    margin-top: 150px;
     margin-bottom: 25px;
 }
 #ERROR {
@@ -154,3 +156,12 @@ footer {
     height: 100%;
     margin: 40px;
 }
+
+#owl .item{
+    margin: 3px;
+  }
+  #owl .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }

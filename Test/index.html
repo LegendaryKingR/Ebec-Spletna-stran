@@ -1,53 +1,79 @@
 <!DOCTYPE html>
 <html lang="sl">
+
 <head>
     <title>EBEC Maribor</title>
     <meta charset="UTF-8">
 
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="text.css">
+    <link rel="stylesheet" href="maxmin.css">
+    <script src="script.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.32/owl.carousel.min.js" integrity="sha512-Mbgs3jiG1Gj9Z0yQquXz1pe/ylRaSa4kYrOHj1j/86yCQEyqrO33/+WGGFHAjAE4asmrq3D4kUzYd37LUQrBJA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.32/owl.carousel.js" integrity="sha512-psXhKyyYLZgEH3Qmy2fjLS7GRlU04qRW0OaFRh0c1vFmClzWXv2btGc3VWSs+DsjV+k8q/lIStcE0T096CCTCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.32/owl.carousel.css" integrity="sha512-r2BeFfarJSZf3teQ+0SMnCKS2UlU/xkLct52CALlAboavp4MR0EHiREQF3I+bFArKEOp5GGxPDAnnUbLHJ8UEg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.32/owl.carousel.min.css" integrity="sha512-xbYWNZUF5abfd+COvIaCdxraK5F+CzMtGU8a1iYiLOujWGo5yGwy9YhXfVWmKh/b0Fw6BxtfK3IY0AAXJDwMEw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.32/owl.theme.css" integrity="sha512-A0Z5apGnS0cNbERTamhdj458FUFjpgzwAewVzdgKcbQ+0nARJXXlhJdPgnT9tCAOKj6/ktqKj5rMFDi9NJVEbw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.32/owl.theme.min.css" integrity="sha512-f28cvdA4Bq3dC9X9wNmSx21rjWI+5piIW/uoc2LuQ67asKxfQjUow2MkcCNcfJiaLrHcGbed1wzYe3dlY4w9gA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <script>
-     
+        $(document).ready(function() {
+ 
+            $("#owl").owlCarousel({
+
+                autoPlay: 3000, //Set AutoPlay to 3 seconds
+
+                items : 4,
+                itemsDesktop : [1199,3],
+                itemsDesktopSmall : [979,3]
+
+            });
+
+            });
     </script>
 </head>
+
 <body>
-<span id="top"></span>
-<nav>
-    <img src="fotografije/EBEC_logo.svg" onerror="this.onerror=null; this.src='fotografije/EBEC_logo.png'">
-    <a href="#dobrodosli">DOBRODOŠLI</a>
-    <a href="#EBEC">EBEC</a>
-    <a href="#oNas">O NAS</a>
-    <a href="#kontakt">KONTAKT</a>
-    <a href="#sponzorji">SPONZORJI</a>
-</nav>
+    <span id="top"></span>
+    <nav>
+        <img src="fotografije/EBEC_logo.svg" onerror="this.onerror=null; this.src='fotografije/EBEC_logo.png'">
+        <a href="#dobrodosli">DOBRODOŠLI</a>
+        <a href="#EBEC">EBEC</a>
+        <a href="#oNas">O NAS</a>
+        <a href="#kontakt">KONTAKT</a>
+        <a href="#sponzorji">SPONZORJI</a>
+    </nav>
 
-<div id="dobrodosli">
-    <div class="moderFilter">
-    </div>
-    <div id="firstPage">
-        <div class="dobrodosliTexBox">
-            <div id="title">EUROPEAN BEST<br> ENGINEERING COMPETITION</div> 
-            <div id="subtitle">SESTAVI EKIPO,<br> PREMAGAJ IZZIV!</div>
+    <div id="dobrodosli">
+        <div class="moderFilter">
         </div>
-        <div class="video">
-            <source src="movie.mp4" type="video/mp4">
+        <div id="firstPage">
+            <div class="dobrodosliTexBox">
+                <div id="title">EUROPEAN BEST<br> ENGINEERING COMPETITION</div>
+                <div id="subtitle">SESTAVI EKIPO,<br> PREMAGAJ IZZIV!</div>
+            </div>
+            <div class="video">
+                <source src="movie.mp4" type="video/mp4">
+            </div>
         </div>
     </div>
-</div>
 
-<section>
-    <h1 class="CrniH1">KAJ JE EBEC</h1>
-    <div class="AboutEBEC">
-        Evropsko študentsko-inženirsko tekmovanje EBEC Maribor je dogodek, ki ga delimo v različne kategorije. 
-        Ekipe študentov z uporabo svojih tehničnih, socialnih in komunikacijskih spretnostih tekmujejo pri izvedbi različnih nalog.
-        <br><br>
-        V danih pogojih morajo ekipe študentov zagotoviti največjo možno kakovost izdelka z vidika učinkovitosti, stroškov in inovacije. 
-        Ekipe so sestavljene iz štirih študentov, ki lahko sodelujejo v kategoriji skupinskega načrtovanja ali študije primera.
-    </div>
-    <div class="slajdSSklikami"></div>
-</section>
+    <section>
+        <h1 class="CrniH1">KAJ JE EBEC</h1>
+        <div class="AboutEBEC">
+            Evropsko študentsko-inženirsko tekmovanje EBEC Maribor je dogodek, ki ga delimo v različne kategorije.
+            Ekipe študentov z uporabo svojih tehničnih, socialnih in komunikacijskih spretnostih tekmujejo pri izvedbi
+            različnih nalog.
+            <br><br>
+            V danih pogojih morajo ekipe študentov zagotoviti največjo možno kakovost izdelka z vidika učinkovitosti,
+            stroškov in inovacije.
+            Ekipe so sestavljene iz štirih študentov, ki lahko sodelujejo v kategoriji skupinskega načrtovanja ali
+            študije primera.
+        </div>
+        <div class="slajdSSklikami"></div>
+    </section>
 
     <div class="ebecAmakModroOzadje">
         <h1>SKUPINSKO NAČRTOVANJE</h1>
@@ -55,7 +81,10 @@
         <table id="skupinskoNacrtovanje">
             <tr>
                 <th id="skupinskoNacrtovanjeText">
-                    V kategoriji skupinsko načrtovanje boš ekipa lahko dokazala svoje sposobnosti, iznajdljivost in domišljijo. Dobili boste potreben material za izvedbo in omejen čas za izdelavo “naprave”, ki jo bo zahtevala naloga. Na koncu boste pripravili kratko predstavitev svojega projekta in preizkusili delovanje svojih izdelanih “naprav”.
+                    V kategoriji skupinsko načrtovanje boš ekipa lahko dokazala svoje sposobnosti, iznajdljivost in
+                    domišljijo. Dobili boste potreben material za izvedbo in omejen čas za izdelavo “naprave”, ki jo bo
+                    zahtevala naloga. Na koncu boste pripravili kratko predstavitev svojega projekta in preizkusili
+                    delovanje svojih izdelanih “naprav”.
                 </th>
                 <th>
                     <img src="fotografije/2.png">
@@ -73,7 +102,9 @@
 
         <div id="studijaPrimera">
             <div id="studijaPrimeraText">
-                Rad planiraš inovativne projekte? Ni problema - lahko sodeluješ v kategoriji študija primera. Skupina bo dobila realen problem, za katerega bo potrebno v omejenem času poiskati teoretično rešitev in idejo predstaviti strokovni žiriji. Si zmožen nalogo izvesti tako, kot se to dela v največjih podjetjih?
+                Rad planiraš inovativne projekte? Ni problema - lahko sodeluješ v kategoriji študija primera. Skupina bo
+                dobila realen problem, za katerega bo potrebno v omejenem času poiskati teoretično rešitev in idejo
+                predstaviti strokovni žiriji. Si zmožen nalogo izvesti tako, kot se to dela v največjih podjetjih?
             </div>
             <div id="studijaPrimeraSlika">
 
@@ -88,35 +119,58 @@
 
     </div>
 
-<section>    
-    <h1 class="CrniH1">O NAS</h1>
-    <p class="oNasTex">
-        BEST je konstantno rastoča neprofitna študentska organizacija, ki že od leta 1989 omogoča komunikacijo, povezovanje in možnost izmenjave študentov po vsej Evropi. Sestavljajo 96 lokalnih BEST skupin, v 33 različnih državah.
-        <br><br>
-        Več kot 3400 aktivnih članov lokalnih skupin BEST širom Evrope promovira in omogoča evropskim študentom razumeti in ceniti različne kulture, pridobiti sposobnosti in znanja za delo v mednarodnem okolju, kar še dodatno doprinese k osebnostni rasti posameznika. To skušamo doseči tako, da tekom celega leta organiziramo različne strokovne aktivnosti, kot so dvotedenski tečaji, kratki intenzivni treningi, sejmi kadrovskih potencialov in aktivnosti, kjer je večji poudarek na spoznavanju kulturnih značilnosti in navezovanju stikov med evropskimi študenti.
-        <br><br>
+    <div>
+    <section>
+        <h1 class="CrniH1">O NAS</h1>
+        <p class="oNasTex">
+            BEST je konstantno rastoča neprofitna študentska organizacija, ki že od leta 1989 omogoča komunikacijo,
+            povezovanje in možnost izmenjave študentov po vsej Evropi. Sestavljajo 96 lokalnih BEST skupin, v 33
+            različnih državah.
+            <br><br>
+            Več kot 3400 aktivnih članov lokalnih skupin BEST širom Evrope promovira in omogoča evropskim študentom
+            razumeti in ceniti različne kulture, pridobiti sposobnosti in znanja za delo v mednarodnem okolju, kar še
+            dodatno doprinese k osebnostni rasti posameznika. To skušamo doseči tako, da tekom celega leta organiziramo
+            različne strokovne aktivnosti, kot so dvotedenski tečaji, kratki intenzivni treningi, sejmi kadrovskih
+            potencialov in aktivnosti, kjer je večji poudarek na spoznavanju kulturnih značilnosti in navezovanju stikov
+            med evropskimi študenti.
+            <br><br>
 
-        BEST pomaga študentom, da se mednarodno udejstvujejo, širijo znanje na svojem področju, navezujejo stike z ostalimi študenti in predavatelji. S svojim delovanjem pripomoremo k povezovanju trikotnika študent – podjetje – univerza. Aktivni člani BEST-a se udeležujejo številnih drugih internih srečanj, kot so delavnice, treningi, kulturne izmenjave in generalne skupščine, kjer si pridobimo znanja s področja timskega dela, organizacije, projektnega vodenja ter mehkih veščin.
-    </p>
-    <div class="slajdSSklikami"></div>
-</section>
+            BEST pomaga študentom, da se mednarodno udejstvujejo, širijo znanje na svojem področju, navezujejo stike z
+            ostalimi študenti in predavatelji. S svojim delovanjem pripomoremo k povezovanju trikotnika študent –
+            podjetje – univerza. Aktivni člani BEST-a se udeležujejo številnih drugih internih srečanj, kot so
+            delavnice, treningi, kulturne izmenjave in generalne skupščine, kjer si pridobimo znanja s področja timskega
+            dela, organizacije, projektnega vodenja ter mehkih veščin.
+        </p>
+        <div id="owl">
+            <div class="item"><img src="slideshow/shrek.png"></div>
+            <div class="item"><img src="slideshow/shrek5.png"></div>
+            <div class="item"><img src="slideshow/shrek1.png"></div>
+            <div class="item"><img src="slideshow/shrek2.png"></div>
+            <div class="item"><img src="slideshow/shrek4.png"></div>
+            <div class="item"><img src="slideshow/shrek5.png"></div>
+            <div class="item"><img src="slideshow/shrek.png"></div>
+            <div class="item"><img src="slideshow/shrek.png"></div>
+        </div>
+    </section>
+    </div>  
 
-<div class="kontakt" id="kontakt">
-    <h1>KONTAKT</h1>
-    <div id="poljeZKontakti">
-        <div class="kontakti"></div>
-        <div class="kontakti"></div>
-        <div class="kontakti"></div>
+    <div class="kontakt" id="kontakt">
+        <h1>KONTAKT</h1>
+        <div id="poljeZKontakti">
+            <div class="kontakti"></div>
+            <div class="kontakti"></div>
+            <div class="kontakti"></div>
+        </div>
     </div>
-</div>
 
 
-<div class="sponzorji" id="sponzorji">
+    <div class="sponzorji" id="sponzorji">
 
-</div>
-<img src="fotografije/error.png" id ="ERROR">
-<footer>
-    <p>© BEST Maribor. All rights reserved.</p>
-</footer>
+    </div>
+    <img src="fotografije/error.png" id="ERROR">
+    <footer>
+        <p>© BEST Maribor. All rights reserved.</p>
+    </footer>
 </body>
+
 </html>
