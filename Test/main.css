@@ -262,5 +262,9 @@ div {
     padding-bottom:10px;
 }
 .InsideKontakt{
+    height: 500px;
+    width: auto;
+    margin-left: 15%;
+    margin-right: 15%;
     background-color: #FFFFFF;
 }
