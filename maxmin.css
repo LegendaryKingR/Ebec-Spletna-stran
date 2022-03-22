@@ -22,7 +22,7 @@
     }
 }
 
-@media only screen and (max-height: 1080px) and (min-height: 901px){
+@media only screen and (max-height: 1100px) and (min-height: 720px){
     .AboutEBEC ,.oNasTex{
         margin-left: 50px;
         margin-right: 50px;
@@ -45,7 +45,7 @@
     
 }
 
-@media only screen and (max-height: 900px) {
+@media only screen and (max-height: 560px) {
     #ERROR {
       display:block;
     }
